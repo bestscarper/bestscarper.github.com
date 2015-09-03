@@ -1,0 +1,16 @@
+---
+layout: project
+title:  "Sky"
+date:   2015-09-01 18:00:00
+author: Ashley Hindmarsh
+categories:
+- project
+img: portfolio_bbc.jpg
+thumb: thumb_bbc.jpg
+carousel:
+- bbc01.jpg
+client: Sky Digital
+website: http://www.sky.com/iplayer/
+---
+####Sky OTT Delivery
+Seven years working on parts of the iPlayer A/V media infrastructure.
