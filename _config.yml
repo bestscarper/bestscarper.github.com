@@ -45,7 +45,7 @@ tel: +44 793one 53226one
 # Members information. Shown on About page.
 members:
   - name: Ashley Hindmarsh
-    position: CTO
+    position: Director/CTO/whatever
     text: Ashley has over 25 years experience learning about software development across many domains.
     img: ashley-chanrio.png
     social:
@@ -54,7 +54,7 @@ members:
       - title: twitter
         url: http://twitter.com/ashbelle
   - name: Tracy Hindmarsh
-    position: CCC (Child child-catcher)
+    position: Secretary
     text: Tracy keeps the books in good shape and is the first contact for clients
     img: tracy-chanrio.png
     social:
