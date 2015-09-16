@@ -53,6 +53,12 @@ members:
         url: mailto:ashley@bellesoftware.uk
       - title: twitter
         url: http://twitter.com/ashbelle
+      - title: file-pdf-o
+        url: /ash-cv/cv2015.contract.pdf
+      - title: html5
+        url: /ash-cv/cv2015.contract.html
+      - title: file-word-o
+        url: /ash-cv/cv2015.contract.docx
   - name: Tracy Hindmarsh
     position: Secretary
     text: Tracy keeps the books in good shape and is the first contact for clients
@@ -74,6 +80,6 @@ about: "Belle Software and predecessors have been providing Java and Perl softwa
 # Testimonial content. Shown on Home and About page. 
 testimonial:
     message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO
+    author: X
+    position: Y
 
