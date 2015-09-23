@@ -5,7 +5,7 @@ title: Belle Software (UK)
 description: "Enterprise-level Software Development and Architecture Services for Java and Perl"
 # analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://bellesoftware.uk"
+url: "http://bellesoft.uk"
 
 # Build settings
 markdown: kramdown
@@ -37,7 +37,7 @@ address:
     - Some Ave, 987,
     - 23890, New York,
     - United States.
-email: info@bellesoftware.uk
+email: info@bellesoft.uk
 tel: +44 793one 53226one
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
@@ -50,7 +50,7 @@ members:
     img: ashley-chanrio.png
     social:
       - title: envelope #use for email address
-        url: mailto:ashley@bellesoftware.uk
+        url: mailto:ashley@bellesoft.uk
       - title: twitter
         url: http://twitter.com/ashbelle
       - title: file-pdf-o
@@ -65,7 +65,7 @@ members:
     img: tracy-chanrio.png
     social:
       - title: envelope #use for email address
-        url: mailto:tracy@bellesoftware.uk
+        url: mailto:tracy@bellesoft.uk
     
 # Clients information. Shown on Home and About pages.
 clients:
