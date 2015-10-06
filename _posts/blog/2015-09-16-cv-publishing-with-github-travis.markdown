@@ -32,22 +32,23 @@ This I discovered pandoc, and more importantly how to tame it with Docker.
 
 ## The Process
 
-{% ditaa %}
+(I'd use the lovely jekyll-ditaa plugin if github pages would allow it)
+
                                          publishing flow                                                        
-    +---------------------------------------------------------------------------------------------------------->
+    +------------------------------------------------------------------------------------------>
                                                                                                                 
-       +--------------+        +--------------+              +---------------+         +-----------------+      
-       |              |        |              |              |               ++        |                 |      
-       |  local git   |        |  remote git  |              |  published    ||        |   github        |      
-       |      CV      |        |      CV      |              |  formats      ||        |   pages         |      
-       |              |        |              |              |               ||        |                 |      
-       +--+-----+-----+        +------+--+----+              +--^-------------|        +----^------------+      
-          |     |                     ^  |                    +---------------+             |                   
-          |     |                     |  |                      |    |                      |                   
-          |     |     committed by    |  |      built by        |    |    published by      |                   
-          |     |   +---------------+ |  |    +-------------+   |    |   +--------------+   |                   
-          |     |   |               | |  |    |             |   |    |   |              |   |                   
-          |     +--^+               +-+  +---->  travis/    +---+    +--->  travis      +---+                   
+       +--------------+        +--------------+              +---------------+        +--------+      
+       |              |        |              |              |               ++       |        |      
+       |  local git   |        |  remote git  |              |  published    ||       | github |      
+       |      CV      |        |      CV      |              |  formats      ||       | pages  |      
+       |              |        |              |              |               ||       |        |      
+       +--+-----+-----+        +------+--+----+              +--^-------------|       +----^---+      
+          |     |                     ^  |                    +---------------+            |                   
+          |     |                     |  |                      |    |                     |                   
+          |     |     committed by    |  |      built by        |    |    published by     |                   
+          |     |   +---------------+ |  |    +-------------+   |    |   +--------------+  |                   
+          |     |   |               | |  |    |             |   |    |   |              |  |                   
+          |     +--^+               +-+  +---->  travis/    +---+    +--->  travis      +--+                   
           |         |    git        |         |  docker     |            |              |                       
           |         |               |         |  pandoc     |            |              |                       
           |         +---------------+         +-----+-------+            +------+-------+                       
@@ -68,8 +69,6 @@ This I discovered pandoc, and more importantly how to tame it with Docker.
        |               ||                                                                                       
        +----------------|                                                                                       
         +---------------+                                                                                       
-
-{% endditaa %}
 
 ## Testing and Committing changes
 
