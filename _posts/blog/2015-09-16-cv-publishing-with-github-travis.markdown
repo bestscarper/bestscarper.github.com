@@ -76,9 +76,11 @@ Having edited the CV, I may want to test changes before committing.
 This also tests the publishing process outside of travis: Testability is a big plus for docker.
 
 There are several Docker images available - this one works for me...
+
     https://github.com/vpetersson/docker-pandoc
 
-I will type 'make pdf' (or 'make all') to test locally. This just triggers the publishaing process within the pando container:
+I will type 'make pdf' (or 'make all') to test locally. This just triggers the publishing process within the pandoc container:
+
     docker run -v $(pwd):/docs vpetersson/pandoc /bin/sh -c pandoc -V geometry:margin=1in -t latex -o out/cv.pdf cv.md
 
 It was almost surprising how easily pandoc handles HTML and Word publishing out of the box. There is scope to add styling (via tex/css) to suit taste. I don't feel the need to style my CV.
