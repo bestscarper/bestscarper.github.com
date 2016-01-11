@@ -1,14 +1,12 @@
 ---
 layout: post          #important: don't change this
 title: "Rearchitecting a smelly enterprise pattern"
-date: 2015-11-10 09:16:00
+date: 2015-12-16 09:16:00
 author: Ashley
 categories:
 - blog                #important: leave this here
-- github
-- travis
-- docker
-- pandoc
+- enterprise
+- dropwizard
 - ...
 img: post01.jpg       #place image (850x450) with this name in /assets/img/blog/
 thumb: thumb01.jpg    #place thumbnail (70x70) with this name in /assets/img/blog/thumbs/
