@@ -28,6 +28,7 @@ That doesn't sound too zingy.... I ought to start with some graphics.
 I’ve worked at two large UK-based media companies, providing OTT VoD solutions; I worked at one for several years, the other for several weeks. I was still surprised to find the same smelly architectural pattern a the second that we had encountered at the first. 
 
 The two companies manifested the same painful system
+
  * media metadata, in a remote ‘behemoth’ database which was not designed for web-scale use
   * the elements of the metadata relate to VoD programming (time-based, with a rolling 'availability' window)
  * data is exposed to downstream systems via a feed of ‘current’ media elements, which is intended to be a rolling window
@@ -37,6 +38,7 @@ The two companies manifested the same painful system
 ## So what went wrong?
 
 What goes wrong is...
+
  * the feed grows linearly as
   * (a) scope for media increases, 
   * (b) it include data with indef availability which doesn’t go away
@@ -62,6 +64,7 @@ Although it’s not possible to architect this, it should be possible to design 
 In separating the polling client from the message ingested, we have to define the contract between the systems, which forces us to design the schema for the messages to be ingested.
 
 Playing devil’s advocate, there would be reasonable concerns for not making architectural changes:
+
  * “it ain’t broke” … ok, that’s a lame story - maintainability, scalability, availability are of proven value for a corporate customer-facing service
  * "the RoI isn’t great for the lifetime of the system”: this is fair enough -
  * “the original system is in maintenance-only - we’ll never get pub-sub” - the decoupling and maintainability are still strong cases for change.
