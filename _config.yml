@@ -73,6 +73,10 @@ clients:
     img: bbc_logo_large.jpg
   - name: Sky
     img: sky_logo.png
+  - name: Zoopla
+    img: zoopla-property-group-plc-logo.jpg
+  - name: Mendeley
+    img: mendeley.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Belle Software and predecessors have been providing Java and Perl software and architecture in various guises since 1995."
